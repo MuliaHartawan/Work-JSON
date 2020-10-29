@@ -30,6 +30,10 @@ $menu = $menu['menu'];
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                 <a class="nav-link active" href="#">All Menu</a>
+                <a class="nav-link" href="#">Pizza</a>
+                <a class="nav-link" href="#">Pasta</a>
+                <a class="nav-link" href="#">Nasi</a>
+                <a class="nav-link" href="#">Minuman</a>
                 </div>
             </div>
        </div>
@@ -42,7 +46,7 @@ $menu = $menu['menu'];
                 <h1>All Menu</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="daftar-menu">
             <?php foreach ($menu as $data): ?>
             <div class="col-md-4">
                 <div class="shadow p-3 mb-5 bg-white rounded">
@@ -69,7 +73,7 @@ $menu = $menu['menu'];
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
+    <script src="js/script.js"></script>            
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
